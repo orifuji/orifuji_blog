@@ -14,14 +14,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@fortawesome/fontawesome-svg-core/styles.css'
-  ],
+  css: ['@fortawesome/fontawesome-svg-core/styles.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    { src: '~plugins/font-awesome', ssr: false }
-  ],
+  plugins: [{ src: '~plugins/font-awesome', ssr: false }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -43,7 +39,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/markdownit',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
   ],
 
   // for '@nuxtjs/markdownit'
@@ -51,12 +47,12 @@ export default {
     html: true,
     injected: true,
     linkify: true,
-    breaks: false
+    breaks: false,
   },
 
   // for 'nuxt-fontawesome'
   fontawesome: {
-    component: 'fa'
+    component: 'fa',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
